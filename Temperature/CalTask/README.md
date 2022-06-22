@@ -130,7 +130,11 @@ plt.show()
 
 Here we demonstrate how to animate the behavior of the print head position over time, noting the weld on/weld off state.
 This data is provided in columns 17-19 of SRP-4_nospike_Temperature&SysData.xlsx.
-The print head movement in the weld-off state follows the infill pattern as discussed in section 2.6 of the challenge_info_packet.
+The print head movement in the weld-off state follows th
+
+https://user-images.githubusercontent.com/7451908/175178817-33b4422d-758e-428a-b405-0e48b78f7136.mp4
+
+e infill pattern as discussed in section 2.6 of the challenge_info_packet.
 
 
 ```python
