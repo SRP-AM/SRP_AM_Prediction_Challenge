@@ -2,19 +2,19 @@
 ## List of Files
 |File Name| Description|
 |:---|:---|
-|SRP-4_nospike_Temperature&SysData.xlsx|Calibration task temperature and location, current voltage, and time data
-Temperature_Calibration_Sample_Model_Locations.xlsx|Template to input optional additional temperature simulated results–calibration.|
+|[SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx)|Calibration task temperature and location, current voltage, and time data
+[Temperature_Calibration_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/Temperature_Calibration_Sample_Model_Locations.xlsx)|Template to input optional additional temperature simulated results–calibration.|
 
 ### SRP-4_nospike_Temperature&SysData.xlsx
 The calibration temperature data is provided in SRP-4_nospike_Temperature&SysData.xlsx.
 The first 5 rows provide background statistics for the experiment data (operator, wire, gas, etc.)
-Columns are then delineated as follows: 
+Columns are then delineated as follows:
 
 - ***Column 1, Timestamp:*** Timestamp data formatted as \<hour\>:\<minute\>:\<second\>.
 - ***Columns 2-13, Thermocouple \<number\>:***. Continuous data, temperature measurements in celsius for each thermocouple (total of 12).
 - ***Column 14, Weld Voltage:*** Continuous data, measured in V (volts)
 - ***Column 15, Weld Current:*** Continuous data, Measured in A (amperes)
-- ***Column 16, Weld on:*** Binary data, indicates whether the power is on or off, 1 for on and 0 for off. 
+- ***Column 16, Weld on:*** Binary data, indicates whether the power is on or off, 1 for on and 0 for off.
 - ***Column 17-19, \<axis\> Position:*** Continuous data, print head locations (X, Y, Z) in mm. The origin is located in the center of the part.
 
 
@@ -37,7 +37,7 @@ Thermocouples = np.array(Tmp_npspike)[:,1:13].astype(float)
 
 ## Thermocouple Data
 
-Here we provide a simple visualization of the thermocouple temperature data collected over time (Columns 2-13 of SRP-4_nospike_Temperature&SysData.xlsx). Note that the ambient and table temperatures are lower throughout the experiment, as we would expect. 
+Here we provide a simple visualization of the thermocouple temperature data collected over time (Columns 2-13 of SRP-4_nospike_Temperature&SysData.xlsx). Note that the ambient and table temperatures are lower throughout the experiment, as we would expect.
 
 
 ```python
@@ -47,7 +47,7 @@ t = [dateutil.parser.parse(s) for s in times]
 for i in [1, 2, 3, 4, 6, 7, 8, 9]:
     plt.plot(t, Thermocouples[:,i], color='tab:purple', linewidth=.5)
 plt.plot([], [], color='tab:purple', label='Interior (2-5, 7-10)')
-    
+
 plt.plot(t, Thermocouples[:,0], label='Right end (1)')
 plt.plot(t, Thermocouples[:,5], label='Left end (6)')
 plt.plot(t, Thermocouples[:,-2], label='Table (11)', linestyle = '--')
@@ -65,15 +65,15 @@ plt.show()
 ```
 
 
-    
+
 ![png](README/output_4_0.png)
-    
+
 
 
 ## Weld on, weld off behavior
 
-Here we provide a simple visualization for the weld on, weld off behavior (provided in column 16 of SRP-4_nospike_Temperature&SysData.xlsx). 
-Again, as we would expect, the temperature measured on the base plate thermocouples (1-10) decreases when the weld is off. 
+Here we provide a simple visualization for the weld on, weld off behavior (provided in column 16 of SRP-4_nospike_Temperature&SysData.xlsx).
+Again, as we would expect, the temperature measured on the base plate thermocouples (1-10) decreases when the weld is off.
 
 
 ```python
@@ -94,15 +94,15 @@ plt.show()
 ```
 
 
-    
+
 ![png](README/output_6_0.png)
-    
+
 
 
 ## Power behavior
 
-Here we visualize the power data, which was logged indirectly via the voltage and current (columns 14 and 15, respectively, of SRP-4_nospike_Temperature&SysData.xlsx). 
-The setup problem assumes constant power when the weld is on: we can calculate the average power in the on state to be approximately 2599.01452 Watts. 
+Here we visualize the power data, which was logged indirectly via the voltage and current (columns 14 and 15, respectively, of SRP-4_nospike_Temperature&SysData.xlsx).
+The setup problem assumes constant power when the weld is on: we can calculate the average power in the on state to be approximately 2599.01452 Watts.
 
 
 ```python
@@ -121,16 +121,16 @@ plt.show()
 ```
 
 
-    
+
 ![png](README/output_8_0.png)
-    
+
 
 
 ## Print Head Position
 
-Here we demonstrate how to animate the behavior of the print head position over time, noting the weld on/weld off state. 
-This data is provided in columns 17-19 of SRP-4_nospike_Temperature&SysData.xlsx. 
-The print head movement in the weld-off state follows the infill pattern as discussed in section 2.6 of the challenge_info_packet. 
+Here we demonstrate how to animate the behavior of the print head position over time, noting the weld on/weld off state.
+This data is provided in columns 17-19 of SRP-4_nospike_Temperature&SysData.xlsx.
+The print head movement in the weld-off state follows the infill pattern as discussed in section 2.6 of the challenge_info_packet.
 
 
 ```python
@@ -181,13 +181,13 @@ def drawframe(i):
             ax.w_xaxis.set_pane_color((.8,.8,.8,1))
             ax.w_yaxis.set_pane_color((.8,.8,.8,.9))
             ax.w_zaxis.set_pane_color((.8,.8,.8,.8))
-    
+
     title.set_text('Print Head Position: ' + weldstat + '\n' + str(timestamp_str[i]))
-    
+
     return(scatter_frame, title)
 
 anim = animation.FuncAnimation(fig, drawframe, XYZ.shape[0], repeat=False, interval=100)#XYZ.shape[0])
 HTML(anim.to_html5_video())
 
 ```
-![](README/print_head_pos.mp4)
+![](README/Print_Head_Pos.mp4)
