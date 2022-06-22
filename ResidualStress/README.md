@@ -4,10 +4,10 @@
 
 |File Name| Description|
 |:---|:---|
-|ORNL_MBAAM_Challenge_Residual_Stress_Results_VF.pptx|Document explaining how residual stress was measured|
-|CalTask/ResidualStress_calibrationsample.xlsx|Residual stress data for the calibration task.|
-|CalTask/WAAM results revBLB.xlsx|Additional strain/stress information|
-|ChallTask/ResidualStress_challengesample_template.xlsx|Challenge task spreadsheet residual stress template to be filled–locations only.|
+|[ORNL_MBAAM_Challenge_Residual_Stress_Results_VF.pptx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/ResidualStress/ORNL_MBAAM_Challenge_Residual_Stress_Results_VF.pptx)|Document explaining how residual stress was measured|
+|[CalTask/ResidualStress_calibrationsample.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/ResidualStress/CalTask/Residual%20Stress%20_calibration%20sample.xlsx)|Residual stress data for the calibration task.|
+|[CalTask/WAAM results revBLB.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/ResidualStress/CalTask/WAAM%20Results%20revBLB.xlsx)|Additional strain/stress information|
+|[ChallTask/ResidualStress_challengesample_template.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/ResidualStress/ChallTask/Residual%20Stress%20_challenge%20sample_template.xlsx)|Challenge task spreadsheet residual stress template to be filled–locations only.|
 
 ## CalTask/ResidualStress_calibrationsample.xlsx
 

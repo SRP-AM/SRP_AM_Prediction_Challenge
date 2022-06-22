@@ -4,8 +4,8 @@
 
 |File Name| Description|
 |:---|:---|
-|DeformationMapsCal.xlsx|Deformation map for the calibration task|
-|DeformationMapsChallDataRemoved.xlsx|Deformation map for the challenge task. Empty file to be filled and returned|
+|[DeformationMapsCal.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Deformation/CalTask/DeformationMapsCal.xlsx)|Deformation map for the calibration task|
+|[DeformationMapsChallDataRemoved.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Deformation/ChallTask/DeformationMapsChallDataRemoved.xlsx)|Deformation map for the challenge task. Empty file to be filled and returned|
 
 ## Data Visualization
 In the code below we visualize the calibration deformation measurements included in DeformationMapsCal.xlsx.
@@ -14,7 +14,7 @@ A visual is also generated within the xlsx file itself.
 
 ```python
 import pandas as pd
-from mat plotlib import pyplot as plt
+from matplotlib import pyplot as plt
 import numpy as np
 
 cal_def = pd.read_excel('CalTask/DeformationMapsCal.xlsx')
