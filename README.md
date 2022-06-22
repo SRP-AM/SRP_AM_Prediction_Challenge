@@ -3,11 +3,11 @@
 
 Welcome to the 2022 SRP Additive Manufacturing Prediction Challenge!
 The purpose of this exercise is two-fold:
-1. Compare methodologies for predicting transient temperature, residual stress, and distortion of large metallic additively manufactured structures
+1. Compare methodologies for predicting transient temperature, residual stress, and distortion of large metallic additively manufactured structures.
 2. Identify methodologies that appear most predictive.
 
 Results will be compiled and published in an archival journal.
-For a detailed description of the challenge and the data provided for it, please read and review the challenge information packet. We look forward to your participation.
+For a detailed description of the challenge and the data provided for it, please read and review the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf). We look forward to your participation.
 
 
 ## Important Deadlines
@@ -21,17 +21,17 @@ Predictions Due: November 1, 2022 (4 months after challenge was issued)
 Experimental "true" results available to all participants: February 31, 2023
 
 ## Challenge Submission
-Details on the challenge submission are included in the challenge information packet. Submissions must be returned in the provided templates, compiled for ease in "File Return Folder."
+Details on the challenge submission are included in the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf). Submissions must be returned in the provided templates, compiled for ease in "File Return Folder."
 
  - Participant Questionaire:
 
- - Temperature Predictions: CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx
+ - Temperature Predictions: [CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/CHAL-4_TempRemoved_nodate_nospikeTemperature%26SysData.xlsx)
 
- - Temperature Location Predictions (optional): Temperature_Challenge_Sample_Model_Locations.xlsx
+ - Temperature Location Predictions (optional): [Temperature_Challenge_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/Temperature_Challenge_Sample_Model_Locations.xlsx)
 
- - Deformation Predictions: DeformationMapsChallDataRemoved.xlsx
+ - Deformation Predictions: [DeformationMapsChallDataRemoved.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/DeformationMapsChallDataRemoved.xlsx)
 
- - Residual Stress Predictions: Residual Stress _challenge sample_template.xlsx
+ - Residual Stress Predictions: [Residual Stress _challenge sample_template.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/Residual%20Stress%20_challenge%20sample_template.xlsx)
 
 Please fill out and return submissions in a .zip folder titled "\<principal contact last name\>_srpam_challenge.zip".
 This should be sent to nycza@ornl.gov with the subject line "SRP AM Challenge."
