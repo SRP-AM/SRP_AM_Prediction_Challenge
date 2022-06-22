@@ -2,8 +2,8 @@
 ## List of Files
 |File Name| Description|
 |:---|:---|
-|CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx|Challenge data file with temperatures removed–insert challenge  results here.|
-|Temperature_Challenge_Sample_Model_Locations.xlsx|Template to input optional additional temperature simulated results–challenge.|
+|[CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/ChalTask/CHAL-4_TempRemoved_nodate_nospikeTemperature%26SysData.xlsx)|Challenge data file with temperatures removed–insert challenge  results here.|
+|[Temperature_Challenge_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/ChalTask/Temperature_Challenge_Sample_Model_Locations.xlsx)|Template to input optional additional temperature simulated results–challenge.|
 
 ### CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx
 The challenge temperature data file is provided in CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx.
