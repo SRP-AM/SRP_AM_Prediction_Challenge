@@ -2,8 +2,10 @@
 ## List of Files
 |File Name| Description|
 |:---|:---|
-|[SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx)|Calibration task temperature and location, current voltage, and time data
-[Temperature_Calibration_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/Temperature_Calibration_Sample_Model_Locations.xlsx)|Template to input optional additional temperature simulated results–calibration.|
+|[SRP-4_Instrument.pdf](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_Instrument.pdf) |Image depicting the instrument settings for the calibration task (on off behavior over time). |
+|[SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx)|Calibration task temperature and location, current voltage, and time data.|
+|[Temperature_Calibration_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/Temperature_Calibration_Sample_Model_Locations.xlsx)|Template to input optional additional temperature simulated results–calibration.|
+
 
 ### SRP-4_nospike_Temperature&SysData.xlsx
 The calibration temperature data is provided in SRP-4_nospike_Temperature&SysData.xlsx.
@@ -196,4 +198,3 @@ HTML(anim.to_html5_video())
 
 
 https://user-images.githubusercontent.com/7451908/175178913-2ea92f86-0730-4a01-9ec5-d7ec71eebd39.mp4
-
