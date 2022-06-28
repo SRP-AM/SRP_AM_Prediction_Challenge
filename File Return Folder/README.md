@@ -14,24 +14,28 @@ Column 1, titled X (distance from left end) gives the locations along the x axis
 Predicted values for the challenge deformation should be reported in Column 2, "Deformation".
 
 #### Residual Stress _challenge sample_template.xlsx
-The Residual Stress challenge file return format varies slightly from the residual stress calibration data file.
+The Residual Stress challenge file return format varies from the residual stress calibration data file.
 There are two tabs for the residual stress challenge data:
 1. **Mid Plane (Y=0)**
 2. **Side Plane (Y=125)**
 
 For each of these Y planes, residual stress values should reported along seven lines:
-  1. **Col 1-4:** X = 0, $Z \ in [-12.7, 10]$
-  2. **Col 5-9:** X = 10, $Z \ in [-12.7, 10]$
-  3. **Col 10-14:** X = 20, $Z \ in [-12.7, 10]$
-  4. **Col 15-19:** Z = 7, $X \in [-24, 24]$
-  5. **Col 20-24:** Z = 1, $X \in [-24, 24]$
-  6. **Col 25-29:** Z = -2, $X \in [-24, 24]$
-  7. **Col 30-34:** Z = -12, $X \in [-24, 24]$
+  1. **Col 1-4:** $X = 0, Z \in [-12.7, 10]$
+  2. **Col 5-9:** $X = 10, Z \in [-12.7, 10]$
+  3. **Col 10-14:** $X = 20, Z \in [-12.7, 10]$
+  4. **Col 15-19:** $Z = 7, X \in [-24, 24]$
+  5. **Col 20-24:** $Z = 1, X \in [-24, 24]$
+  6. **Col 25-29:** $Z = -2, X \in [-24, 24]$
+  7. **Col 30-34:** $Z = -12, X \in [-24, 24]$
 
-
+These locations are visualized in Figure 3.4 of the [Challenge Information Packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf).
+Note that the resolution for the residual stress predictions is left to the participant, and should be reported as locations in the first column of each reporting segment.
 
 #### Temperature_Challenge_Sample_Model_Locations.xlsx
-
+Section 3.2.1  of the [Challenge Information Packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) describes the optional temperature history reporting for the challenge problem.
+Additional location points through the center of the weld pass are provided in rows 4-6, and temperature predictions should be reported for these additional 27 points in one second intervals.
+This problem is optional, since the true temperature results were recorded only at the thermocouples.
+However, center of the pass predictive behavior is important for cross model comparison, so this exercise is *highly encouraged.*
 
 ## Optional Calibration Return Files
 The following calibration return files are optionally included to demonstrate model performance on the calibration data.
