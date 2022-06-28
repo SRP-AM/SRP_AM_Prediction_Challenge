@@ -1,8 +1,12 @@
 # File Return Folder
 ## Submission Instructions
+Please fill out the files in this folder for final submission.
+Submissions must be returned in a .zip folder titled \<principal contact last name\>_srpam_challenge.zip".
+This should be sent to nycza@ornl.gov with the subject line "SRP AM Challenge."
+Any questions or concerns for challenge submission can be raised in the [discussions](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/discussions) tab, or emailed to nycza@ornl.gov.
 
 ## Challenge Return Files
-The following challenge return files are required for final evaluation.
+The following challenge return files are *required* for final evaluation.
 Files must be returned in the following format for evaluation and inclusion in the final challenge results.
 
 #### Participant Questionaire
@@ -42,7 +46,7 @@ This problem is optional, since the true temperature results were recorded only 
 However, center of the pass predictive behavior is important for cross model comparison, so this exercise is *highly encouraged.*
 
 ## Optional Calibration Return Files
-The following calibration return files are optionally included to demonstrate model performance on the calibration data.
+The following calibration return files are *optional but encouraged* for final evaluation.
 
 #### DeformationMapsCal.xlsx
 Calibration deformation predictions should be appended to the original calibration deformation file, as the third column (called "Predictions" here).
