@@ -5,6 +5,8 @@
 The following challenge return files are required for final evaluation.
 Files must be returned in the following format for evaluation and inclusion in the final challenge results.
 
+#### Participant Questionaire
+
 #### CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx
 This file contains the timestamp, ambient temperature (at Thermocouple 12), weld voltage, weld current, on/off state, and XYZ position of the print head.
 The predicted temperature histories for each of the 11 thermocouple locations should be filled out in columns 2-12 and returned.
