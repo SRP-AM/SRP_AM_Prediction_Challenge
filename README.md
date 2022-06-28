@@ -21,17 +21,7 @@ Predictions Due: November 1, 2022 (4 months after challenge was issued)
 Experimental "true" results available to all participants: February 31, 2023
 
 ## Challenge Submission
-Details on the challenge submission are included in the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf). Submissions must be returned in the provided templates, compiled for ease in "File Return Folder."
-
- - Participant Questionaire:
-
- - Temperature Predictions: [CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/CHAL-4_TempRemoved_nodate_nospikeTemperature%26SysData.xlsx)
-
- - Temperature Location Predictions (optional): [Temperature_Challenge_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/Temperature_Challenge_Sample_Model_Locations.xlsx)
-
- - Deformation Predictions: [DeformationMapsChallDataRemoved.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/DeformationMapsChallDataRemoved.xlsx)
-
- - Residual Stress Predictions: [Residual Stress _challenge sample_template.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/File%20Return%20Folder/Residual%20Stress%20_challenge%20sample_template.xlsx)
+Details on the challenge submission are included in the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) as well as in the [File Return Folder](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/tree/main/File%20Return%20Folder) itself. Submissions *must be returned in the provided templates*, compiled for ease in the [File Return Folder](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/tree/main/File%20Return%20Folder).
 
 Please fill out and return submissions in a .zip folder titled "\<principal contact last name\>_srpam_challenge.zip".
 This should be sent to nycza@ornl.gov with the subject line "SRP AM Challenge."
