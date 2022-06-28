@@ -1,14 +1,34 @@
+# File Return Folder
+## Submission Instructions
+
 ## Challenge Return Files
 The following challenge return files are required for final evaluation.
-Please return in the given format.  
+Files must be returned in the following format for evaluation and inclusion in the final challenge results.
 
 #### CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx
-This file contains the timestamp, ambient temperature (at Thermocouple 12), weld coltage, weld current, on/off state, and XYZ position of the print head.
-The predicted temperatures over time for each of the 11 thermocouple locations should be filled out in columns 2-12 and returned.
+This file contains the timestamp, ambient temperature (at Thermocouple 12), weld voltage, weld current, on/off state, and XYZ position of the print head.
+The predicted temperature histories for each of the 11 thermocouple locations should be filled out in columns 2-12 and returned.
 
 #### DeformationMapsChallDataRemoved.xlsx
+Column 1, titled X (distance from left end) gives the locations along the x axis at which the deformation should be reported.
+Predicted values for the challenge deformation should be reported in Column 2, "Deformation".
 
 #### Residual Stress _challenge sample_template.xlsx
+The Residual Stress challenge file return format varies slightly from the residual stress calibration data file.
+There are two tabs for the residual stress challenge data:
+1. **Mid Plane (Y=0)**
+2. **Side Plane (Y=125)**
+
+For each of these Y planes, residual stress values should reported along seven lines:
+  1. **Col 1-4:** X = 0, $Z \ in [-12.7, 10]$
+  2. **Col 5-9:** X = 10, $Z \ in [-12.7, 10]$
+  3. **Col 10-14:** X = 20, $Z \ in [-12.7, 10]$
+  4. **Col 15-19:** Z = 7, $X \in [-24, 24]$
+  5. **Col 20-24:** Z = 1, $X \in [-24, 24]$
+  6. **Col 25-29:** Z = -2, $X \in [-24, 24]$
+  7. **Col 30-34:** Z = -12, $X \in [-24, 24]$
+
+
 
 #### Temperature_Challenge_Sample_Model_Locations.xlsx
 
