@@ -6,6 +6,8 @@ The following challenge return files are required for final evaluation.
 Files must be returned in the following format for evaluation and inclusion in the final challenge results.
 
 #### Participant Questionaire
+Please provide your answers to the questions about basic methodology. The Participant Questionaire has been included in both Word and LaTeX file formats for ease of completion.
+Either format may be filled and submitted.
 
 #### CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx
 This file contains the timestamp, ambient temperature (at Thermocouple 12), weld voltage, weld current, on/off state, and XYZ position of the print head.
