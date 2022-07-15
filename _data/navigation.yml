@@ -1,9 +1,0 @@
-main:
-  - title: "Temperature"
-    url: /temperature/
-  - title: "Residual Stress"
-    url: /residualstress/
-  - title: "Deformation"
-    url: /deformation/
-  - title: "About SRP"
-    url: /about/
