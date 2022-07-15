@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+title: SRP AM Prediction Challenge
+author: SRP-AM Team
+email: aahenri@sandia.gov
+description: >
+This page contains all the information needed to participate in the SRP AM Prediction Challenge.
+
+show_excerpts: true
