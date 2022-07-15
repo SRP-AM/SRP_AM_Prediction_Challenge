@@ -1,5 +1,5 @@
 main:
-  - title: Temperature
+  - title: "Temperature"
     url: /temperature/
   - title: "Residual Stress"
     url: /residualstress/
