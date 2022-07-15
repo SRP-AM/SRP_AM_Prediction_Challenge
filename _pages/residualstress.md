@@ -1,4 +1,4 @@
 ---
-permalink: /about/
+permalink: /residualstress/
 title: "Residual Stress"
 ---
