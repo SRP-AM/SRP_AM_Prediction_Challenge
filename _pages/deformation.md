@@ -1,4 +1,0 @@
----
-permalink: /deformation/
-title: "Deformation"
----

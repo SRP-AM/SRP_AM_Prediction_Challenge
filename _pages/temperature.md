@@ -1,4 +1,0 @@
----
-permalink: /temperature/
-title: "Temperature"
----
