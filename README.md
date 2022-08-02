@@ -12,13 +12,13 @@ For a detailed description of the challenge and the data provided for it, please
 
 ## Important Deadlines
 
-Challenge Release: July 1, 2022
+Challenge Release: August 1, 2022
 
-Submission of all challenge concerns or questions about data: September 31, 2022
+Submission of all challenge concerns or questions about data: October 31, 2022
 
-Predictions Due: November 1, 2022 (4 months after challenge was issued)
+Predictions Due: December 1, 2022 (4 months after challenge was issued)
 
-Experimental "true" results available to all participants: February 31, 2023
+Experimental "true" results available to all participants: March 31, 2023
 
 ## Challenge Submission
 Details on the challenge submission are included in the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) as well as in the [File Return Folder](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/tree/main/File%20Return%20Folder) itself. Submissions *must be returned in the provided templates*, compiled for ease in the [File Return Folder](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/tree/main/File%20Return%20Folder).
