@@ -8,7 +8,7 @@
 
 
 ### SRP-4_nospike_Temperature&SysData.xlsx
-The calibration temperature data is provided in SRP-4_nospike_Temperature&SysData.xlsx.
+The calibration temperature data is provided in [SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx).
 The first 5 rows provide background statistics for the experiment data (operator, wire, gas, etc.)
 Columns are then delineated as follows:
 
@@ -39,7 +39,7 @@ Thermocouples = np.array(Tmp_npspike)[:,1:13].astype(float)
 
 ## Thermocouple Data
 
-Here we provide a simple visualization of the thermocouple temperature data collected over time (Columns 2-13 of SRP-4_nospike_Temperature&SysData.xlsx). Note that the ambient and table temperatures are lower throughout the experiment, as we would expect.
+Here we provide a simple visualization of the thermocouple temperature data collected over time (Columns 2-13 of [SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx)). Note that the ambient and table temperatures are lower throughout the experiment, as we would expect.
 
 
 ```python
@@ -74,7 +74,7 @@ plt.show()
 
 ## Weld on, weld off behavior
 
-Here we provide a simple visualization for the weld on, weld off behavior (provided in column 16 of SRP-4_nospike_Temperature&SysData.xlsx).
+Here we provide a simple visualization for the weld on, weld off behavior (provided in column 16 of [SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx)).
 Again, as we would expect, the temperature measured on the base plate thermocouples (1-10) decreases when the weld is off.
 
 
@@ -103,7 +103,7 @@ plt.show()
 
 ## Power behavior
 
-Here we visualize the power data, which was logged indirectly via the voltage and current (columns 14 and 15, respectively, of SRP-4_nospike_Temperature&SysData.xlsx).
+Here we visualize the power data, which was logged indirectly via the voltage and current (columns 14 and 15, respectively, of [SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx)).
 The setup problem assumes constant power when the weld is on: we can calculate the average power in the on state to be approximately 2599.01452 Watts.
 
 
@@ -131,8 +131,8 @@ plt.show()
 ## Print Head Position
 
 Here we demonstrate how to animate the behavior of the print head position over time, noting the weld on/weld off state.
-This data is provided in columns 17-19 of SRP-4_nospike_Temperature&SysData.xlsx.
-The print head movement in the weld-off state follows the infill pattern as discussed in section 2.6 of the challenge_info_packet.
+This data is provided in columns 17-19 of [SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx).
+The print head movement in the weld-off state follows the infill pattern as discussed in section 2.6 of the [challenge_info_packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) and [Slicing/Toolpath](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/wiki/Calibration-Problem-and-Setup#slicingtoolpath) in the wiki.
 
 
 ```python
