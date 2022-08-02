@@ -102,7 +102,7 @@ This data is provided in columns 17-19 of [CHAL-4_TempRemoved_nodate_nospikeTemp
 This animation visualizes two key differences between the challenge and calibration problems.
 First, the print pattern follows the short end of the challenge curl bar, rather than the length.
 Second, a small hole is left in the center of the challenge curl bar, resulting in an intermediate weld off period for each layer.
-For additional details, see Figure 3.2 of the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) or [Geometry and Setup](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/wiki/Challenge-Problem#geometry-and-setup) in the wiki.
+For additional details, see Figure 3.2 of the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) or ["Geometry and Setup"](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/wiki/Challenge-Problem#geometry-and-setup) in the wiki.
 
 
 ```python
