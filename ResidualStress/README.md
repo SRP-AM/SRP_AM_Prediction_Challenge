@@ -12,6 +12,7 @@
 ## CalTask/ResidualStress_calibrationsample.xlsx
 
 The residual stress data for the calibration task is contained in Residual Stress _calibration sample.xlsx.
+For more information on the residual stress calibration task, please see section 2.3.3 of the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) or ["Residual Stress Data"](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/wiki/Calibration-Problem-Data#residual-stress-data) in the wiki.
 
 This dataset is split into multiple spreadsheet tabs as follows:
 
