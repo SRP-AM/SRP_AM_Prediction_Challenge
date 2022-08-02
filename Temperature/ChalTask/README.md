@@ -6,9 +6,9 @@
 |[Temperature_Challenge_Sample_Model_Locations.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/ChalTask/Temperature_Challenge_Sample_Model_Locations.xlsx)|Template to input optional additional temperature simulated results–challenge.|
 
 ### CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx
-The challenge temperature data file is provided in CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx.
-The format for this file is identical to SRP-4_nospike_Temperature&SysData.xlsx, with the temperature data from Thermocouple 1-11 left empty, to be filled by the participant.
-The thermocouple locations are visualized in figure 2.8 of the challenge_info_packet, and formally specified in Thermocouple.SLDPRT.
+The challenge temperature data file is provided in [CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/ChalTask/CHAL-4_TempRemoved_nodate_nospikeTemperature%26SysData.xlsx).
+The format for this file is identical to [SRP-4_nospike_Temperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/CalTask/SRP-4_nospike_Temperature%26SysData.xlsx), with the temperature data from Thermocouple 1-11 left empty, to be filled by the participant.
+The thermocouple locations are visualized in figure 2.8 of the [challenge_info_packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) and in ["Instrumentation"](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/wiki/Calibration-Problem-and-Setup#instrumentation) in the wiki. These are formally specified in [Thermocouple.SLDPRT](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/CAD/CalTask/ModelledAfterPrinting/Accessories/Thermocouple.SLDPRT).
 Timestamps, Thermocouple 12 (ambient) temperature data, Weld Voltage, Weld Current, Weld on, and print head positions are all provided.
 
 
@@ -68,7 +68,7 @@ plt.show()
 
 ## Power behavior
 
-Here we visualize the power data, which was logged indirectly via the voltage and current (columns 14 and 15, respectively, of CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx).
+Here we visualize the power data, which was logged indirectly via the voltage and current (columns 14 and 15, respectively, of [CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/ChalTask/CHAL-4_TempRemoved_nodate_nospikeTemperature%26SysData.xlsx)).
 The setup problem assumes constant power when the weld is on: the average nonzero power is approximately 2589.1413 (note this is about 10 Watts lower than the average power for the calibration weld on state).
 
 
@@ -97,11 +97,12 @@ plt.show()
 
 We include an animation of the challenge print head position over time.
 As before, we indicate the weld on/weld off state via the background color (dark for off, light for on).
-This data is provided in columns 17-19 of CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx.
+This data is provided in columns 17-19 of [CHAL-4_TempRemoved_nodate_nospikeTemperature&SysData.xlsx](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/Temperature/ChalTask/CHAL-4_TempRemoved_nodate_nospikeTemperature%26SysData.xlsx).
 
 This animation visualizes two key differences between the challenge and calibration problems.
 First, the print pattern follows the short end of the challenge curl bar, rather than the length.
 Second, a small hole is left in the center of the challenge curl bar, resulting in an intermediate weld off period for each layer.
+For additional details, see Figure 3.2 of the [challenge information packet](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/blob/main/challenge_info_packet.pdf) or [Geometry and Setup](https://github.com/SRP-AM/SRP_AM_Prediction_Challenge/wiki/Challenge-Problem#geometry-and-setup) in the wiki.
 
 
 ```python
