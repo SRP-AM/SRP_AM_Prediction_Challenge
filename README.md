@@ -16,7 +16,7 @@ Challenge Release: August 1, 2022
 
 Submission of all challenge concerns or questions about data: ~~October 31, 2022~~ January 31, 2023.
 
-Predictions Due: ~~December 1, 2022~~ The challenge deadline has been extended to March 1, 2023 .
+Predictions Due: ~~December 1, 2022~~ **The challenge deadline has been extended to March 1, 2023**.
 
 Experimental "true" results available to all participants: ~~March 31, 2023~~ May 31, 2023.
 
