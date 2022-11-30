@@ -28,7 +28,7 @@ This should be sent to nycza@ornl.gov with the subject line "SRP AM Challenge."
 
 
 ## Contact information
-For questions about the challenge or challenge data, please submit an issue here or email Andrzej Nycz directly at nycza@ornl.gov. The deadline for submitting challenge questions is August 31, 2022.
+For questions about the challenge or challenge data, please submit an issue here or email Andrzej Nycz directly at nycza@ornl.gov. The deadline for submitting challenge questions is ~~August 31, 2022~~ January 31, 2023.
 
 
 ### Challenge Release Team
